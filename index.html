@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+ 
+</head>
+<body>
+    <header>
+        Todo Example
+    </header>
+
+    <div id="main-content">
+        <div class="form">
+            <div class="input-group">
+                    <label for="todoTitle">Todo: </label>
+                    <input type="text" name="todoTitle" id="todoTitle" placeholder="Enter Todo">
+            </div>
+
+            <div class="input-group">
+                    <label for="todoDescription">Todo: </label>
+                    <input type="text" name="todoDescription" id="todoDescription" placeholder="Enter Todo Description">
+            </div>
+
+            <input type="button" value="Add Todo" onclick="addTodo()">
+        </div>
+
+        <div id="todoList">
+            <table id="todoTable">
+
+                <thead>
+                    <th>
+                        <td>Todo</td>
+                        <td>Edit</td>
+                        <td>Delete</td>
+                        <td>View</td>
+                    </th>
+                </thead>
+
+                <tbody>
+                    <!-- This is where teh list comes -->
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+<footer>
+
+    <script src="app.js"></script>
+</footer>
+
+</body>
+</html>
